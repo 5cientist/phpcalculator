@@ -7,24 +7,23 @@
 <body>
 <form>
 	
-		
-	
-	
+
   <div class="form-group ">
     <label class="">Enter first number
     <input type="number" class="form-control" name="number1" ></label>
-<label class="">Enter secound number
+	<br>
+	<label class="">Enter secound number
     <input type="number" class="form-control" name="number2" ></label>
-<label>select operator</label>
-    <select name="oper" class="col-md-1">
-    	<option>select</option>
-    	<option>add</option>
-    	<option>sub</option>
-    	<option>multi</option>
-    	<option>division</option>
-
-    	
-    </select>
+	<br>
+	<br>
+	<label>select operator :</label>
+		<select name="oper" class="col-md-1">
+			<option>select</option>
+			<option>add</option>
+			<option>sub</option>
+			<option>multi</option>
+			<option>division</option>
+		</select>
     <br>
     <br>
     <button type="submit" name="submited" value="submit">Result</button>
