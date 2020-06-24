@@ -47,25 +47,25 @@
 </form>
 <?php
 
-if (isset($GET['submited'])) {
-	$num1=$GET['number1'];
-	$num2=$GET['number2'];
-	$op=$GET['oper'];
+if (isset($_GET['submited'])) {
+	$num1=$_GET['number1'];
+	$num2=$_GET['number2'];
+	$op=$_GET['oper'];
 
 	switch ($op) {
-		case 'select':	
+		case "select":	
 		echo "select any operations";
 		break;
-		case 'add':
+		case "add":
 		echo $num1+$num2;
 		break;
-		case 'sub':
+		case "sub":
 		echo $num1-$num2;
 		break;
-		case 'multi':
+		case "multi":
 		echo $num1*$num2;
 		break;
-		case 'division':
+		case "division":
 		echo $num1/$num2;
 		break;				
 		
